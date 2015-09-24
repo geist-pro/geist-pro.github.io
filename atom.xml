@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>geist</title>
+ <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://hyde.getpoole.com/"/>
+ <updated>2015-09-25T00:31:12+09:00</updated>
+ <id>http://hyde.getpoole.com</id>
+ <author>
+   <name>Mark Otto</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Introducing Geist</title>
+   <link href="http://hyde.getpoole.com/2015/09/24/introducing-geist/"/>
+   <updated>2015-09-24T00:00:00+09:00</updated>
+   <id>http://hyde.getpoole.com/2015/09/24/introducing-geist</id>
+   <content type="html">&lt;p&gt;I&amp;#39;m happy to announce a new Real Project at Keio Media Design called &amp;quot;Geist&amp;quot;. &lt;/p&gt;
+
+&lt;h2&gt;GEIST :: MIND &lt;img style=&quot;float: right;&quot; src=&quot;images/logo_nt.svg&quot;&gt;&lt;/h2&gt;
+
+&lt;p&gt;pronounciation: [ˈɡaɪst]. Geist is German meaning mind. Yet, depending on the context it can also be translated to spirit or ghost. The name stands on it&amp;#39;s own, so it&amp;#39;s no abbreviation.&lt;/p&gt;
+
+&lt;p&gt;The geist project focuses on understanding our Gut feeling and Embodiment to augment our Intellect and Skills using Technology.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
