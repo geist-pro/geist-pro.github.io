@@ -2,21 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>geist</title>
- <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
- <link href="http://hyde.getpoole.com/"/>
- <updated>2015-09-25T10:21:56+09:00</updated>
- <id>http://hyde.getpoole.com</id>
+ <link href="http://geist.pro//atom.xml" rel="self"/>
+ <link href="http://geist.pro//"/>
+ <updated>2016-01-16T09:50:45+09:00</updated>
+ <id>http://geist.pro/</id>
  <author>
-   <name>Mark Otto</name>
+   <name>Kai Kunze</name>
    <email></email>
  </author>
 
  
  <entry>
+   <title>After ISWC/UbiComp</title>
+   <link href="http://geist.pro//2015/09/25/after-ubicomp/"/>
+   <updated>2015-09-25T00:00:00+09:00</updated>
+   <id>http://geist.pro//2015/09/25/after-ubicomp</id>
+   <content type="html">&lt;p&gt;Although Geist was officially founded on Sept 24,
+we still had a strong (unoffical) precence at this year&amp;#39;s ISWC and UbiComp Conferences.
+Overall very pleasant and inspiring event, nice to see some old friends and meet new ones.&lt;/p&gt;
+
+&lt;p&gt;So happy, Mina could win the Design Award at the ISWC Design Competition.&lt;/p&gt;
+
+&lt;p&gt;Enhanced tradition: combining tech and traditional clothing.
+Vilhelmina Sokol, Yuta Sugiura, Kai Kunze, and Masahiko Inami. 2015.&lt;/p&gt;
+
+&lt;p&gt;We had a paper about our reading logging technologies.&lt;/p&gt;
+
+&lt;p&gt;Quantifying reading habits: counting how many words you read. Kunze, Kai and Masai, Katsutoshi and Inami, Masahiko and Sacakli, Oemer and Liwicki, Marcus and Dengel, Andreas and Ishimaru, Shoya and Kise, Koichi. Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing. 2015. &lt;/p&gt;
+
+&lt;p&gt;And had several at the workshops, work in progress and demo sessions. Bellow are the titles.&lt;/p&gt;
+
+&lt;p&gt;MEME - Eye Wear Computing to Explore Human Behavior. Kunze, Kai and Ishimaru, Shoya and Tanaka, Katsuma and Uema, Yuji and Kise, Koichi and Inami, Masahiko. Proceedings of UbiComp&amp;#39;15 Adjunct. 2015&lt;/p&gt;
+
+&lt;p&gt;Multimodal Literacy: Storytelling Across Senses. Sanchez, Susana and Gu, Heng and Kunze, Kai and Inami, Masahiko. Proceedings of UbiComp&amp;#39;15 Adjunct. 2015.&lt;/p&gt;
+
+&lt;p&gt;Silhouette Interactions - Using the Hand Shadow As Interaction Modality. Chita, Eria and Kunze, Kai and Sugiura, Yuta and Inami, Masahiko and Hashimoto, Sunao and Ogata, Masa. Proceedings of UbiComp&amp;#39;15 Adjunct. 2015.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Introducing Geist</title>
-   <link href="http://hyde.getpoole.com/2015/09/24/introducing-geist/"/>
+   <link href="http://geist.pro//2015/09/24/introducing-geist/"/>
    <updated>2015-09-24T00:00:00+09:00</updated>
-   <id>http://hyde.getpoole.com/2015/09/24/introducing-geist</id>
+   <id>http://geist.pro//2015/09/24/introducing-geist</id>
    <content type="html">&lt;p&gt;I&amp;#39;m happy to announce a new Real Project at Keio Media Design called &amp;quot;Geist&amp;quot;. &lt;/p&gt;
 
 &lt;h2&gt;GEIST :: MIND &lt;img style=&quot;float: right;&quot; src=&quot;images/logo_nt.svg&quot;&gt;&lt;/h2&gt;
