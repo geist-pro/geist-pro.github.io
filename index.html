@@ -19,7 +19,10 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="/public/css/custom-overrides.css">
+  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"> -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -35,11 +38,9 @@
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
-        <a href="/">
-            <img src="/./images/logo.png">
-        </a>
-      </h1>
+      <a class='gs-logo' href="/">
+          <img src="/./images/logo.png">
+      </a>
       <p class="lead">Augmenting the Embodied Mind</p>
     </div>
     <nav class="sidebar-nav">
@@ -94,16 +95,22 @@
 
     <div class="content container">
       <div class="feature">
-    <h2> Featured</h2>
-    Talk from the 31C3 giving a good overview about one of our research directions:
-    <b>Eyewear Computing</b>.
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/5-chhJ6GLg0" frameborder="0" allowfullscreen></iframe> 
+  <span><img class="gs-post-icon" src="/images/icons/youtube.svg"></span>
+  <h1>Eyewear Computing</h1>
+  <span class="post-date">Featured post</span>
+  Talk from the 31C3 giving a good overview about one of our research directions:
+  <!-- <b>Eyewear Computing</b> -->
+  <br><br>
+  <div class="videoWrap">
+    <iframe width="560" height="349" src="https://www.youtube.com/embed/5-chhJ6GLg0" frameborder="0" allowfullscreen></iframe>
+  </div>
 </div>
-<div/>
-    <br>
+
+
 <div class="posts">
   
   <div class="post">
+    <span><img class="gs-post-icon" src="/images/icons/document.svg"></span>
     <h1 class="post-title">
       <a href="/2015/09/25/after-ubicomp/">
         After ISWC/UbiComp
@@ -115,6 +122,7 @@
   </div>
   
   <div class="post">
+    <span><img class="gs-post-icon" src="/images/icons/document.svg"></span>
     <h1 class="post-title">
       <a href="/2015/09/24/introducing-geist/">
         Introducing Geist
@@ -129,10 +137,10 @@
 
 <div class="pagination">
   
-    <span class="pagination-item older">Older</span>
+    <!-- <a class="pagination-item older" href="/page">← Previous</a> -->
   
   
-    <span class="pagination-item newer">Newer</span>
+    <!-- <a class="pagination-item newer" href="/">Next →</a> -->
   
 </div>
 

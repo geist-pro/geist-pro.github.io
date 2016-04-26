@@ -19,7 +19,10 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="/public/css/custom-overrides.css">
+  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"> -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
@@ -35,11 +38,9 @@
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
-        <a href="/">
-            <img src="/./images/logo.png">
-        </a>
-      </h1>
+      <a class='gs-logo' href="/">
+          <img src="/./images/logo.png">
+      </a>
       <p class="lead">Augmenting the Embodied Mind</p>
     </div>
     <nav class="sidebar-nav">
@@ -94,11 +95,12 @@
 
     <div class="content container">
       <div class="post">
+  <span><img class="gs-post-icon" src="/images/icons/document.svg"></span>
   <h1 class="post-title">Introducing Geist</h1>
   <span class="post-date">24 Sep 2015</span>
-  <p>I&#39;m happy to announce a new Real Project at Keio Media Design called &quot;Geist&quot;. </p>
+  <p>I&#39;m happy to announce a new Real Project at Keio Media Design called &quot;Geist&quot;.</p>
 
-<h2>GEIST :: MIND <img style="float: right;" src="images/logo_nt.svg"></h2>
+<h2>GEIST :: MIND <img style="float: right;" src="/images/logo_nt.svg"></h2>
 
 <p>pronounciation: [ˈɡaɪst]. Geist is German meaning mind. Yet, depending on the context it can also be translated to spirit or ghost. The name stands on it&#39;s own, so it&#39;s no abbreviation.</p>
 
@@ -111,12 +113,7 @@
   <ul class="related-posts">
     
       <li>
-        <h3>
-          <a href="/2015/09/25/after-ubicomp/">
-            After ISWC/UbiComp
-            <small>25 Sep 2015</small>
-          </a>
-        </h3>
+        <a href="/2015/09/25/after-ubicomp/">After ISWC/UbiComp</a> <span class="gs-post-date">(25 Sep 2015)</span>
       </li>
     
   </ul>
