@@ -4,9 +4,11 @@
 {% include head.html %}
 
 <body id="page-top">
-  {% include nav-blog.html %}
+  {% include nav.html %}
 
-  {{ content }}
+  <div class="content-wrap">
+    {{ content }}
+  </div>
 
   {% include social.html %}
   {% include footer.html %}

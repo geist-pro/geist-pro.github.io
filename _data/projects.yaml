@@ -10,3 +10,14 @@ some_project:
     -
     -
 
+newproj2:
+  url: newproj2
+  title: New Project
+  description: New project's description goes here
+  main_image: img/newproj2/main.jpg
+  images:
+    -
+    -
+  videos:
+    -
+    -
