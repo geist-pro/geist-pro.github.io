@@ -1,0 +1,12 @@
+some_project:
+  url: some_project
+  title: New Project
+  description: Blah Blah Blah
+  main_image: img/some_project/main.jpg
+  images:
+    -
+    -
+  videos:
+    -
+    -
+
