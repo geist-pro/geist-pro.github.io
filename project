@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Script that creates static structure for the new project:
+# - directory for the images
+# - sample project data in the data file
+# - html page 
+
 if [ $# -eq 0 ]; then
     echo -e "Please enter the short name for the new project"
     echo -e "(Note: this name is used in the project's URL)\n"
@@ -10,14 +15,14 @@ else
 fi
 
 echo -e "Creating images folder for the project: ./img/$project_name/"
-    mkdir ./img/$project_name
+    mkdir ./img/projects/$project_name
 
 echo -e "Creating the page for the project: ./projects/$project_name.html"
     echo -e "---\nlayout: project\nproject: $project_name\n---" >> ./projects/$project_name.html
 
 echo -e "Creating a new project record in _data/projects.yaml"
     echo -e "$project_name:" >> ./_data/projects.yaml
-    echo -e "  url: $project_name" >> ./_data/projects.yaml
+    echo -e "  id: $project_name" >> ./_data/projects.yaml
     echo -e "  title: New Project" >> ./_data/projects.yaml
     echo -e "  description: New project's description goes here" >> ./_data/projects.yaml
     echo -e "  main_image: img/$project_name/main.jpg" >> ./_data/projects.yaml

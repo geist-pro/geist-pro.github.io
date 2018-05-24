@@ -1,23 +1,23 @@
 # Site settings
 title: GEIST | Research Lab
-email: kai@geist.pro
+email: kirill@kmd.keio.ac.jp
 url: http://geist.pro
 description: "Geist is a research group at the Keio Graduate School of Media Design, Keio University Japan, as well as a loosely connected collective of individuals driven by the same ideals"
 keywords: "geist, keio university, wearable computing, design, research"
-skills: Amplify the Sense of Wonder
 meta_author: Kai Kunze
 
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 
+#Google Analytics
+google_analytics: 
+  
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 data-ad-slot: 
 data-ad-client: 
 google_ad_client: 
 
-google_analytics: 
 # addthis_id: ra-5644da281510c62f
-# disqus_account: 
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 # social:
@@ -37,5 +37,5 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-plugins: [jekyll-paginate, jekyll-feed]
+# plugins: [jekyll-paginate, jekyll-feed]
 # Build settings

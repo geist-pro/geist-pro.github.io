@@ -5,11 +5,9 @@ description: "Recent updates"
 ---
 <div class="container-fluid index">
   <div class="row index all-posts">
-
-    <h1 class="header author-header">{{ site.author_name }}</h1>
-    <!-- <h2 class="header" itemprop="headline">All posts</h2>
+    <!-- <h1 class="header author-header">{{ site.author_name }}</h1>
+    <h2 class="header" itemprop="headline">All posts</h2>
     <h2 class="header categories" itemprop="headline"><small>grouped by
-
       <div class="dropdown btn-group">
         <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Years
           <span class="caret"></span>
@@ -18,16 +16,15 @@ description: "Recent updates"
           <li><a href="{{ site.baseurl }}/posts-by-categories/">Categories</a></li>
         </ul>
       </div>
-
     </small></h2> -->
 
       {% for update in site.posts %}
-      {% capture this_year %}{{ update.date | date: "%Y" }}{% endcapture %}
-      {% capture next_year %}{{ update.previous.date | date: "%Y" }}{% endcapture %}
+        {% capture this_year %}{{ update.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ update.previous.date | date: "%Y" }}{% endcapture %}
 
       {% if forloop.first %}
       <div class="col-md-12 content-panel articles">
-        <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
+        <!-- <h2 id="{{ this_year }}-ref">{{ this_year }}</h2> -->
         <ul style="list-style: none;">
       {% endif %}
           <li>

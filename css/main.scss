@@ -40,8 +40,14 @@ $theme-primary: #29b7ea ;
 $theme-secondary: #193f82 ;
 $theme-dark: #222;
 
+
+$color-lblue: #29b7ea;
+$color-dblue: #193f82;
+$color-black: #161616;
+$color-grey: #8e8e8e;
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "mixins",
-        "base"
+  "mixins",
+  "base"
 ;
