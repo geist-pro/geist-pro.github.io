@@ -1,6 +1,6 @@
 # Site settings
 title: GEIST | Research Lab
-email: kirill@kmd.keio.ac.jp
+email: kai@geist.pro
 url: http://geist.pro
 description: "Geist is a research group at the Keio Graduate School of Media Design, Keio University Japan, as well as a loosely connected collective of individuals driven by the same ideals"
 keywords: "geist, keio university, wearable computing, design, research"
@@ -11,7 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization lea
 
 #Google Analytics
 google_analytics: 
-  
+
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 data-ad-slot: 
 data-ad-client: 
