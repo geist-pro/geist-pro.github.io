@@ -26,7 +26,7 @@
   featured_description: |
     Most of the problems we face in our life have already been experienced and solved by others. In this research, focusing on this point, we are digitally recording experiences, attempt to extract the essence and store them to make them applicable to other people.
   images:
-    -
+    - 
     -
   videos:
     -
@@ -71,18 +71,18 @@
   featured: 'yes'
   date: 2016 - 2017
   images:
-    -
-    -
+    - 
+    - 
   videos:
-    -
-    -
+    - 
+    - 
 
 - id: complex_information_visualization
   title: Complex Information Visualization Techniques
   description: 
   main_image: img/assets/space_invaders/main2.png
   date: 2016 - 2017
-  featured: 'no'
+  featured: 'yes'
   images:
     -
     -

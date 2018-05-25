@@ -1,22 +1,26 @@
 ---
 layout: default
 title: "GEIST | Projects"
-description: "Our projects"
 ---
 {% assign projects = site.data.projects %}
 
-{% comment%}
-<div class="container">
+<div id="kw-project-index" projectclass="container">
   <div class="container-fluid index">
+      <!-- <h1 class="kw-section-title">Projects</h1> -->
+      <div class="kw-section-title"><span>Research Projects</span></div>
       {% assign projects = site.data.projects %}
       {% assign rows = projects.size | divided_by: 4.0 | ceil %}
         {% for i in (1..rows) %}
           {% assign offset = forloop.index0 | times: 4 %}
           <div class="row index">
             {% for project in projects limit:4 offset:offset %}
-              <div class="col-md-3">
-                {{ project.title }}
-                {{ project.description }}
+              <div class="col-sm-3">
+                 <img src="{{site.baseurl}}/{{project.main_image}}" class="img-responsive" alt="{{ project.title }}">
+                <h3 class="kw-project-title">
+                  <a href="{{ project.id | prepend: site.baseurl }}">{{ project.title }}</a>
+                </h3>
+                <div class="kw-project-description">{{ project.description | markdownify | strip_html | truncatewords: 50 }}</div>
+                <br><br>
               </div>
             {% endfor %}
           </div>
@@ -24,8 +28,8 @@ description: "Our projects"
     </div>
   </div>
 </div>
-{% endcomment %}
-
+<br>
+{% comment %}
 <div class="container">
   <div class="container-fluid index">
     <div class="row index">
@@ -54,6 +58,7 @@ description: "Our projects"
       {% endfor %}
     </div>
   </div>
+  {% endcomment %}
 
       <!-- <h1 class="header author-header">{{ site.author_name }}</h1> -->
       <!-- <h2 class="header" itemprop="headline">All posts</h2>

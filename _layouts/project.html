@@ -3,24 +3,59 @@ layout: default
 ---
 {% assign projects = site.data.projects | where: 'id', page.project %}
 {% assign project = projects.first %}
+
+<header id="kw-project-header" class="masthead text-center text-white">
+  <div class="overlay"></div>
+  <div class="masthead-content">
+      <!-- <img src="../img/assets/ghost_1b_256.svg" alt="Logo" width="256" height="256"> -->
+      <!-- <h1 class="masthead-heading mb-0">GEIST</h1>
+      <h2 class="masthead-subheading mb-0">Amplify the Sense of Wonder</h2> -->
+  </div>
+  <!-- <div class="bg-circle-1 bg-circle"></div> -->
+  <!-- <div class="bg-circle-2 bg-circle"></div> -->
+  <!-- <div class="bg-circle-3 bg-circle"></div> -->
+  <div class="bg-circle-4 bg-circle"></div>
+</header>
+
 <article>
-    <div id="post" class="container">
-        <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-		  <h1>
-            {{ project.title }}
-          </h1>
-          <h2>
-            {{ project.description }}    
-          </h2>
-          
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+          <div class="kw-single-project">
+            <a class="" href="/projects">&larr; Back to all projects</a>
+            <div class="kw-project-title"><h1>{{ project.title }}</h1></div>
+            <div class="kw-project-date"><span>{{ project.date }}</span></div>
+            <img src="{{ site.baseurl }}/{{ project.main_image }}" class="kw-project-main-image img-responsive" alt="{{ project.title }}">
+            <div class="kw-project-description">{{ project.description }}</div>
+            <div class="kw-project-images">
+              {% for image in project.images %}
+                <div class="kw-project-image">
+                  <img src="{{image | prepend: site.baseurl}}">
+                </div>
+              {% endfor %}
+            </div>
+            <div class="kw-project-videos">
+              {% for video in project.videos %}
+                <div class="kw-project-video">
+                  <p>{{ video }}</p>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="text-center kw-project-sub">
+              {% if project.external_url %}
+                <hr><br>
+                <span><em>This is an externally funded project</em>. </span>
+                <span><a href="https://www.jst.go.jp/kisoken/crest/en/project/1111083/1111083_09.html">Source</a></span>
+              {% endif %}
+            </div>
+            <br><br>
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
+  </div>
 </article>
 
-
-<!-- Post Header -->
+<!-- project Header -->
 <!-- <header id="header" class="intro-header bg-primary text-center" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
       <h1>TEST</h1>
