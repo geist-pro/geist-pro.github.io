@@ -24,7 +24,7 @@ echo -e "Creating a new project record in _data/projects.yaml"
     echo -e "$project_name:" >> ./_data/projects.yaml
     echo -e "  id: $project_name" >> ./_data/projects.yaml
     echo -e "  title: New Project" >> ./_data/projects.yaml
-    echo -e "  description: New project's description goes here" >> ./_data/projects.yaml
+    echo -e "  description: |\n\t\tNew project's description goes here" >> ./_data/projects.yaml
     echo -e "  featured: 'no'" >> ./_data/projects.yaml
     echo -e "  main_image: img/projects/$project_name/main.jpg" >> ./_data/projects.yaml
     echo -e "  images:\n    -\n    -" >> ./_data/projects.yaml

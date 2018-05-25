@@ -27,7 +27,9 @@ layout: default
               
             <!-- </div> -->
             <img src="{{ site.baseurl }}/{{ project.main_image }}" class="kw-project-main-image img-responsive" alt="{{ project.title }}">
-            <div class="kw-project-description">{{ project.description }}</div>
+            <div class="kw-project-description">
+              {{ project.description | newline_to_br }}
+            </div>
             <div class="kw-project-images">
               {% for image in project.images %}
                 <div class="kw-project-image">

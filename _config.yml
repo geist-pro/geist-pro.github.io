@@ -3,7 +3,7 @@ title: GEIST | Research Lab
 email: kai@geist.pro
 url: http://geist.pro
 description: "Geist is a research group at the Keio Graduate School of Media Design, Keio University Japan, as well as a loosely connected collective of individuals driven by the same ideals"
-keywords: "geist, keio university, wearable computing, design, research"
+keywords: "geist, keio university, wearable computing, eyewear computing, HCI, design, research"
 meta_author: Kai Kunze
 
 # Site settings
@@ -34,6 +34,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
 
 # plugins: [jekyll-paginate, jekyll-feed]
 # Build settings

@@ -1,7 +1,11 @@
 - id: open_eyewear
   title: Open Eyewear
   description: |
-    Attention and focus are finite resources, and we need to use it smartly. We need new tools to manage our attention better, to augment our intelligence. There are patterns in human physiological signals (facial expressions, heart rate, eye movements, blinks, etc.) that can reveal information about intentions and cognition of individuals and groups. This project explores these patterns using an Open Eyewear Platform to understand our behavior better. So, people can optimize for their own personal and societal goals. We suggest an Open Eyewear Platform, a toolset to quantify cognitive functions and design interactions to augment behavior. This project is interdisciplinary research focusing on the use of patterns in physiological signals to quantify and improve our daily behavior using a smart glasses design. First, we assess the link between physiological signals and behavior. In a second step, we explore interactions to improve it: learn smarter, work smarter, live smarter.
+    Attention and focus are finite resources, and we need to use it smartly. We need new tools to manage our attention better, to augment our intelligence. There are patterns in human physiological signals (facial expressions, heart rate, eye movements, blinks, etc.) that can reveal information about intentions and cognition of individuals and groups. 
+    
+    This project explores these patterns using an Open Eyewear Platform to understand our behavior better. So, people can optimize for their own personal and societal goals. We suggest an Open Eyewear Platform, a toolset to quantify cognitive functions and design interactions to augment behavior. 
+    
+    This project is interdisciplinary research focusing on the use of patterns in physiological signals to quantify and improve our daily behavior using a smart glasses design. First, we assess the link between physiological signals and behavior. In a second step, we explore interactions to improve it: learn smarter, work smarter, live smarter.
   date: 2016 - today
   featured: 'yes'
   featured_description: |
@@ -18,7 +22,8 @@
 - id: experiential_supplements
   title: Experiential Supplements
   description: |
-    Most of the problems we face in our life have already been experienced and solved by others. In this research, focusing on this point, we are digitally recording experiences, attempt to extract the essence and store them to make them applicable to other people. In this process, we transform the digital record of experiences into a user-adapted form called “experiential supplement” taking into account users’ cognitive biases. This makes the experiences more acceptable by users to change their behavior. We demonstrate the effectiveness of the above process in the fields of learning, health care, sports and entertainment.
+    Most of the problems we face in our life have already been experienced and solved by others. In this research, focusing on this point, we are digitally recording experiences, attempt to extract the essence and store them to make them applicable to other people. 
+    In this process, we transform the digital record of experiences into a user-adapted form called “experiential supplement” taking into account users’ cognitive biases. This makes the experiences more acceptable by users to change their behavior. We demonstrate the effectiveness of the above process in the fields of learning, health care, sports and entertainment.
   external_url: https://www.jst.go.jp/kisoken/crest/en/project/1111083/1111083_09.html
   main_image: img/assets/space_invaders/main5.png
   date: 2017 - today
@@ -35,8 +40,8 @@
 - id: jins_meme
   title: J!NS MEME -- Smart Eyewear Development / Research Project
   description: |
-    J!NS (2014 - today)
     We are consulting and helping J!NS in the research and development for MEME, a smart eyewear focused on sensing eye and head motions.
+
     We are also working on the establishment of an eyewear computing research and development community together with J!NS.
   date: 2014 - today
   main_image: img/projects/jins_meme/main.jpg
@@ -66,7 +71,8 @@
 
 - id: smart_eyewear_gaming
   title: Smart Eyewear Gaming
-  description: New project's description goes here
+  description: |
+    New project's description goes here
   main_image: img/projects/smart_eyewear_gaming/main.jpg
   featured: 'yes'
   date: 2016 - 2017
@@ -79,7 +85,7 @@
 
 - id: complex_information_visualization
   title: Complex Information Visualization Techniques
-  description: 
+  description:
   main_image: img/assets/space_invaders/main2.png
   date: 2016 - 2017
   featured: 'yes'
