@@ -53,7 +53,7 @@
 html {
   height: 100%;
   width: 100%;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Noto Serif', serif;
   position: relative;
   min-height: 100%;
@@ -704,8 +704,8 @@ label {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(5rem + 55px);
-  padding-bottom: 7rem;
+  padding-top: calc(0.88*5rem + 55px);
+  padding-bottom: 0.88*7rem;
   background: url('../img/assets/robot.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -731,14 +731,14 @@ header.masthead {
     padding: 50px 0px;
     position: relative;
     .masthead-heading {
-      font-size: 4rem;
+      font-size:0.88*4rem;
       font-family: 'Nunito', sans-serif;
       font-weight: 100;
     }
     .masthead-subheading {
       font-family: 'TT3R', serif;
       opacity: 0.8;
-      font-size: 2rem;
+      font-size: 0.88*2rem;
     }
   }
   .bg-circle {
@@ -747,45 +747,21 @@ header.masthead {
     border-radius: 100%;
     background: linear-gradient(0deg, $color-lblue 0%, $color-dblue 100%);
   }
-  .bg-circle-1 {
-    height: 90rem;
-    width: 90rem;
-    bottom: -55rem;
-    left: -55rem;
-  }
-  .bg-circle-2 {
-    height: 50rem;
-    width: 50rem;
-    top: -25rem;
-    right: -25rem;
-  }
-  .bg-circle-3 {
-    height: 20rem;
-    width: 20rem;
-    bottom: -10rem;
-    right: 5%;
-  }
-  .bg-circle-4 {
-    height: 30rem;
-    width: 30rem;
-    top: -5rem;
-    right: 35%;
-  }
 }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(5rem + 55px);
-    padding-bottom: 7rem;
+    padding-top: calc(0.88*5rem + 55px);
+    padding-bottom: 0.88*7rem;
     .masthead-content {
       .masthead-heading {
-        font-size: 6rem;
+        font-size: 0.88*6rem;
         font-family: 'Nunito', sans-serif;
         font-weight: 100;
       }
       .masthead-subheading {
         font-family: 'TT3R', serif;
-        font-size: 4rem;
+        font-size: 0.88*4rem;
         opacity: 0.8;
       }
     }
@@ -892,7 +868,7 @@ footer {
 
 .kw-section-title.kw-huge {
   font-size: 32px;
-  font-family: 'TC3B';
+  font-family: 'TC3B', serif;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 40px;
@@ -907,7 +883,7 @@ footer {
   min-height: 600px;
   .kw-section-title {
     font-size: 32px;
-    font-family: 'TC3B';
+    font-family: 'TC3B', serif;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 40px;
@@ -929,6 +905,10 @@ footer {
   .featured-description {
     font-size: 17px;
   } 
+  .featured-title {
+    font-family: 'TC3R', 'Noto Serif', serif;
+    letter-spacing: 0px;
+  }
 }
 
 header.masthead#kw-project-header {
@@ -952,6 +932,10 @@ header.masthead#kw-project-header {
   }
   padding-top: 30px;
   .kw-project-title {
+    font-family: 'TC3R', 'Noto Serif', serif;
+    h1,h2,h3{
+      letter-spacing: 0px;
+    }
     margin-bottom: 30px;
     // margin-top: 20px;
   }
@@ -960,8 +944,12 @@ header.masthead#kw-project-header {
     font-size: 18px;
   }
   .kw-project-date {
-    padding-top: 5px;
-    font-size: 18px;
+    padding-top: 1px;
+    font-size: 16px;
+    font-family: 'TC3R', 'Noto Serif', serif;
+    span {
+      font-style: normal;
+    }
   }
   .kw-project-main-image {
     max-height: 500px;
@@ -987,9 +975,15 @@ header.masthead#kw-project-header {
     border: 0px solid $color-black;
   }
   .kw-project-title {
+    font-family: 'TC3R', 'Noto Serif', serif;
+    font-size: 22px;
     color: $color-black;
     &:visited {
       color: $color-black;
+    }
+    h1,h2,h3,h4 {
+      font-size: 22px;
+      letter-spacing: 0px;
     }
   }
 }
@@ -1012,25 +1006,51 @@ header.masthead#kw-project-header {
   }
   .kw-news-date {
     font-size: 16px;
-    font-style: italic;
+    // font-style: italic;
+    font-family: 'TC3R', 'Noto Serif', serif;
   }
   .kw-news-title {
     margin-top: 5px;
+    font-family: 'TC3R', 'Noto Serif', serif;
+    font-size: 25px;
   }
   .kw-news-content {
     margin-bottom: 5px;
+    font-size: 18px;
   }
 }
 
 #contact {
   label {
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
     font-size: 18px;
     font-weight: 200;
     font-color: $color-black;
   }
   input {
     font-size: 16px;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
   }
+}
+
+#post {
+  .post-title {
+    font-size: 38px;
+    font-family: 'TC3R';
+    margin-bottom: 40px;
+    line-height: 38px;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'TC3B';
+    letter-spacing: 0px;
+  }
+  h1 { font-size: 30px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 18px; }
+  b, strong {
+    font-family: 'TC3B';
+  }
+
+  font-family: 'Noto Serif', serif;
 }

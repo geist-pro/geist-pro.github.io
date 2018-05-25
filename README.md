@@ -14,6 +14,7 @@ Ask [@kirill](https://geist-hq.slack.com/messages/D3B4S9C2V/team/U3B3VTAU8/) for
 # News
 To add an article in the News section, add a Markdown file into the *_posts* folder.
 The name of the file must follow this pattern: *YYYY-MM-DD-article_name.markdown*
+
 At the top of the file, the following block must be present:
 ```yaml
 ---
@@ -24,10 +25,10 @@ author:     "Kai Kunze"
 ---
 ```
 
-Edit *title*, *date*, *author* and *header-img* as you see fit. Upload the new header image into the img/news folder, ommit *header-img* completely if the article has no image.
+Edit *title*, *date* and *author* as you see fit.
 
-# Projects
-There are two ways to add a new project into the Projects section.
+# Research (Projects)
+There are two ways to add a new project into the Research section.
 
 ## 1. By downloading the source code
 ```bash
