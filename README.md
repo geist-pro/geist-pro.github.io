@@ -4,6 +4,7 @@ This repository contains the source for the Giest lab website, which can be acce
 
 The way to add new content to the sections of the website is described below. 
 Please follow the instructions and avoid editing any layout or asset files.
+All changes are applied automatically.
 
 This website uses [Jekyll](https://jekyllrb.com) and is hosted using [GitHub Pages](https://pages.github.com). 
 Please refer to the official documentation if you intend to make any changes that go beyond adding new content.
@@ -64,10 +65,12 @@ git push origin master
       - https://www.youtube.com/watch?v=sFukyIIM1XI
   ```
 
-## Tips
-Please optimize your images for the web before including them in the website. Either do it by yourself or use on online tool like [this](http://www.imageoptimizer.net/Pages/Home.aspx).
+## Project pictures
+Please optimize your images (reduce quality and size) for the web before including them in the website. Either do it by yourself or use on online tool like [this](http://optimizilla.com/).
 
 Use 800x800 resolution for project's main image.
+
+If you don't have any picture for the project, a variety of colorful placeholders are available in the img/assets/space_invaders folder. 
 
 You can use [ImageMagic](http://www.imagemagick.org/script/index.php) to quickly edit your pictures without the graphic editor.
 

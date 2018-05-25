@@ -6,7 +6,7 @@
 # - html page 
 
 if [ $# -eq 0 ]; then
-    echo -e "Please enter the short name for the new project"
+    echo -e "Please enter a short unique name (id) for the new project"
     echo -e "(Note: this name is used in the project's URL)\n"
     printf "Project's short name ( a-z, A-Z, 0-9, _ ): "
     read project_name
@@ -25,7 +25,8 @@ echo -e "Creating a new project record in _data/projects.yaml"
     echo -e "  id: $project_name" >> ./_data/projects.yaml
     echo -e "  title: New Project" >> ./_data/projects.yaml
     echo -e "  description: New project's description goes here" >> ./_data/projects.yaml
-    echo -e "  main_image: img/$project_name/main.jpg" >> ./_data/projects.yaml
+    echo -e "  featured: 'no'" >> ./_data/projects.yaml
+    echo -e "  main_image: img/projects/$project_name/main.jpg" >> ./_data/projects.yaml
     echo -e "  images:\n    -\n    -" >> ./_data/projects.yaml
     echo -e "  videos:\n    -\n    -\n" >> ./_data/projects.yaml
 

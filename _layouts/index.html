@@ -19,7 +19,7 @@
 
   <section class="kw-section" id="kw-featured">
     <div class="container">
-        <div class="kw-section-title"><span>Featured Research</span></div>
+        <div class="kw-section-title kw-huge"><span>Featured Research</span></div>
           {% assign featured_projects = site.data.projects | where: 'featured', 'yes' %}
           {% assign rows = featured_projects.size | divided_by: 3.0 | ceil %}
           {% for i in (1..rows) %}
@@ -29,7 +29,9 @@
               <div class="col-md-4">
                 <div class=featured-item>
                   <div class="featured-image">
-                    <img src="{{ project.main_image | prepend: site.baseurl }}" class="img-responsive" alt="{{ project.title }}">
+                    <a href="/projects/{{project.id}}"">
+                      <img src="{{ project.main_image | prepend: site.baseurl }}" class="img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
+                    </a>
                   </div>
                   <div>
                     <h3 class="featured-title">

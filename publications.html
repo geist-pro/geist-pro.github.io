@@ -3,9 +3,10 @@ layout: default
 title: "GEIST | Publications"
 description: "Papers we have submitted"
 ---
-<article>
+<article id="kw-publications">
     <div class="container">
 <div class="container-fluid index">
+  <div class="kw-section-title kw-huge"><span>Publications</span></div>
   <div class="row index all-posts">
 
     <!-- <h1 class="header author-header">{{ site.author_name }}</h1> -->
@@ -25,18 +26,18 @@ description: "Papers we have submitted"
 
       {% for publication in site.data.publications %}
         {% if forloop.first %}
-        <div class="col-md-12 content-panel articles">
+        <div class="col-md-8 col-md-offset-2 content-panel articles">
           <ul style="list-style: none;">
         {% endif %}
         <li>
-          <hr>
-          <a href="{{ publication.url }}">{{publication.title}}</a>
-          <p>{{publication.author}}{{publication.note}}{{publication.year}}</p>
+          <div class="kw-publication-list-item">
+            <a href="{{ publication.url }}">{{publication.title}}</a>
+            <p>{{publication.author}}, {{publication.note}}, {{publication.year}}</p>
+          </div>
         </li>
         {% if forloop.last %}
           </ul>
         </div>
-
       {% endif %}
     {% endfor %}
     </div>
