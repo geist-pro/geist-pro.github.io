@@ -15,7 +15,7 @@ layout: default
             <div class="kw-project-title"><h1>{{ project.title }}</h1></div>
             <div class="kw-project-date">
               <span>{{ project.date }}</span>
-              {% if project.external_url %}
+              {% if project.externally_funded == 'yes' %}
                 <span>// Externally funded project:
                   <a href="{{ project.external_url }}">
                     Source
@@ -30,6 +30,7 @@ layout: default
             <div class="kw-project-description">
               {{ project.description | newline_to_br }}
             </div>
+            {% comment %}
             <div class="kw-project-images">
               {% for image in project.images %}
                 <div class="kw-project-image">
@@ -44,6 +45,7 @@ layout: default
                 </div>
               {% endfor %}
             </div>
+            {% endcomment %}
           <!-- </div> -->
         </div>
       </div>

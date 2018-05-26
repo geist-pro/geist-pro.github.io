@@ -9,6 +9,7 @@ description: "Papers we have submitted"
   <div class="kw-section-title kw-huge"><span>Publications</span></div>
   <div class="row index all-posts">
 
+    {% comment %}
     <!-- <h1 class="header author-header">{{ site.author_name }}</h1> -->
     <!-- <h2 class="header" itemprop="headline">All posts</h2>
     <h2 class="header categories" itemprop="headline"><small>grouped by
@@ -23,7 +24,7 @@ description: "Papers we have submitted"
       </div>
 
     </small></h2> -->
-
+    {% endcomment %}
       {% for publication in site.data.publications %}
         {% if forloop.first %}
         <div class="col-md-8 col-md-offset-2 content-panel articles">

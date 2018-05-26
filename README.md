@@ -59,12 +59,30 @@ git push origin master
       Descibe your bananas here
     date: 2018 - today
     main_image: img/projects/banana/main.jpg
+    featured: 'no'
+    featured_description: |
+      This text will be shown on front page when the project is featured
+    externally_funded: 'no'
+    external_url: '#'
     images:
       - img/projects/banana/1.jpg
       - img/projects/banana/2.jpg
     videos:
       - https://www.youtube.com/watch?v=sFukyIIM1XI
   ```
+
+## Project attributes
+**id**                - Plain text, doesn't contain any spaces or line breaks
+**title**             - Plain text, single line
+**description:**      - Plain text, can be split into paragraphs
+**date**              - Plain text following the "YYYY - YYYY" format
+**main_image**        - Local path, use 800x800 resolution for project's main image
+**featured**          - yes/no, shows the project on front page when set to *'yes'* (with quotes)
+**featured_description** - Plain text, one or two sentences
+**externally_funded** - yes/no, shows the project's **external_url** when set to *'yes'* (with quotes)
+**external_url**      - URL to the project's funding source
+**images**            - List of local paths for images
+**videos**            - List of YouTube URLs
 
 ## Project pictures
 Please optimize your images (reduce quality and size) for the web before including them in the website. Either do it by yourself or use on online tool like [this](http://optimizilla.com/).
