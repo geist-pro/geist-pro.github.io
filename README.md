@@ -73,15 +73,25 @@ git push origin master
 
 ## Project attributes
 **id**                - Plain text, doesn't contain any spaces or line breaks
+
 **title**             - Plain text, single line
+
 **description:**      - Plain text, can be split into paragraphs
+
 **date**              - Plain text following the "YYYY - YYYY" format
+
 **main_image**        - Local path, use 800x800 resolution for project's main image
+
 **featured**          - yes/no, shows the project on front page when set to *'yes'* (with quotes)
+
 **featured_description** - Plain text, one or two sentences
+
 **externally_funded** - yes/no, shows the project's **external_url** when set to *'yes'* (with quotes)
+
 **external_url**      - URL to the project's funding source
+
 **images**            - List of local paths for images
+
 **videos**            - List of YouTube URLs
 
 ## Project pictures
