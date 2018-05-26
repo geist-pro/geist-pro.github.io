@@ -1,9 +1,8 @@
 ---
-layout:     update
+layout:     article
 title:      "ISWC and UbiComp in Heidelberg"
 date:       2018-02-31 00:00:00
 author:     "Kai Kunze"
-header-img: img/sample_sq.png
 ---
 
 It’s a strange feeling to have UbiComp and ISWC so close to my home. Amazing organization and impressive research and meeting old friends.

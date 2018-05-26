@@ -1,9 +1,8 @@
 ---
-layout:     update
+layout:     article
 title:      "Lessons from the Dagstuhl Seminar on Eyewear Computing"
 date:       2018-03-30 00:00:00
 author:     "Kai Kunze"
-header-img: img/sample_sq.png
 ---
 
 We took a risk in organizing the Eyewear Computing Seminar as we deviated largely from the standard model, yet I believe it payed off.

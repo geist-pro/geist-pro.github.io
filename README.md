@@ -18,10 +18,10 @@ The name of the file must follow this pattern: *YYYY-MM-DD-article_name.markdown
 At the top of the file, the following block must be present:
 ```yaml
 ---
-layout:     update
-title:      "Lessons from the Dagstuhl Seminar on Eyewear Computing"
+layout:     article
+title:      Lessons from the Dagstuhl Seminar on Eyewear Computing
 date:       2018-03-30 00:00:00
-author:     "Kai Kunze"
+author:     Kai Kunze
 ---
 ```
 
@@ -73,7 +73,7 @@ Use 800x800 resolution for project's main image.
 
 If you don't have any picture for the project, a variety of colorful placeholders are available in the img/assets/space_invaders folder. 
 
-You can use [ImageMagic](http://www.imagemagick.org/script/index.php) to quickly edit your pictures without the graphic editor.
+You can use [ImageMagick](http://www.imagemagick.org/script/index.php) to quickly edit your pictures without the graphic editor.
 
 Install ImageMagick using Homebrew (MacOS only):
 ```bash

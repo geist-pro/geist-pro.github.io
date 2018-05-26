@@ -31,19 +31,24 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="post-title">{{ page.title }}</div>
-		    {{ content }} 		    
-        <!-- <ul class="pager"> -->
+		    <div class="post-content">
+          {{ content }}
+          <div class="post-date">
+            Published on {{ page.date | date: "%B %-d, %Y" }}<br>by {{ page.author }}
+          </div>
+        </div>
+        <div class="post-links">
           {% if page.previous.url %}
           <!-- <li class="previous"> -->
-            <a class="btn" style="float: left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous</a>
+            <a class="previous btn" style="float: left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr;</a>
           <!-- </li> -->
           {% endif %}
           {% if page.next.url %}
           <!-- <li> -->
-            <a class="btn" style="float: right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next &rarr;</a>
+            <a class="next btn" style="float: right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">&rarr;</a>
           <!-- </li> -->
-        {% endif %}
-        <!-- </ul> -->
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>

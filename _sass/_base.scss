@@ -1018,6 +1018,9 @@ header.masthead#kw-project-header {
     margin-bottom: 5px;
     font-size: 18px;
   }
+  ul {
+    padding-left: 0px;
+  }
 }
 
 #contact {
@@ -1035,10 +1038,20 @@ header.masthead#kw-project-header {
 
 #post {
   .post-title {
+    margin-top: 40px;
     font-size: 38px;
     font-family: 'TC3R';
     margin-bottom: 40px;
     line-height: 38px;
+  }
+  .post-date {
+    font-size: 16px;
+    // font-style: italic;
+    font-family: 'TC3R', 'Noto Serif', serif;
+    text-align: left;
+  }
+  .post-content {
+    padding-bottom: 50px;
   }
 
   h1,h2,h3,h4,h5,h6 {
@@ -1053,4 +1066,36 @@ header.masthead#kw-project-header {
   }
 
   font-family: 'Noto Serif', serif;
+}
+
+.pagination {
+  font-family: 'TC3R', 'Noto Serif', serif;;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  .page_number {
+    top: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .pagination, .post-links {
+    a.previous:after {
+      content: " Previous";
+    }
+    a.next {
+      min-width: 196px;
+      &:before {
+        content: "Next ";
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .pagination, .post-links {
+    a.previous, a.next {
+      font-size: 20px;
+    }
+  }
 }
