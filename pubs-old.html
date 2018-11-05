@@ -23,8 +23,12 @@ description: "Papers we have submitted"
         </ul>
       </div>
 
-    </small></h2> -->
-    {% endcomment %}
+      </small></h2> -->
+
+
+      {% endcomment %}
+
+      {% include_relative publications.md %}
       {% for publication in site.data.publications %}
         {% if forloop.first %}
         <div class="col-md-8 col-md-offset-2 content-panel articles">
