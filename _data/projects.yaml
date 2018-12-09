@@ -27,7 +27,7 @@
     In this process, we transform the digital record of experiences into a user-adapted form called “experiential supplement” taking into account users’ cognitive biases. This makes the experiences more acceptable by users to change their behavior. We demonstrate the effectiveness of the above process in the fields of learning, health care, sports and entertainment.
   externally_funded: 'yes'
   external_url: https://www.jst.go.jp/kisoken/crest/en/project/1111083/1111083_09.html
-  main_image: img/assets/space_invaders/main5.png
+  main_image: img/assets/placeholders/1.png
   date: 2017 - today
   featured: 'yes'
   featured_description: |
@@ -66,7 +66,7 @@
   featured: 'yes'
   externally_funded: 'no'
   date: 2016 - today
-  main_image: img/assets/space_invaders/main9.png
+  main_image: img/assets/placeholders/2.png
   images:
     -
     -
@@ -92,7 +92,7 @@
 - id: complex_information_visualization
   title: Complex Information Visualization Techniques
   description:
-  main_image: img/assets/space_invaders/main2.png
+  main_image: img/assets/placeholders/3.png
   date: 2016 - 2017
   featured: 'yes'
   externally_funded: 'no'

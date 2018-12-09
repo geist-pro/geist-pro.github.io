@@ -4,9 +4,10 @@
 {% include head.html %}
 
 <body id="page-top">
-  {% include nav.html %}
+  {% include nav-index.html %}
   {% include header.html %}
-  
+  {% include geist-description.html %}
+
   {% comment %}
   <section id="kw-about" class="text-center">
     <div class="container">
@@ -54,7 +55,8 @@
     <div class="container">
       <div class="row">
         <div class="kw-section-title"><h3>Recent updates</h3></div>
-        {% for post in site.posts limit:2 %}
+        {% assign site_posts = site.posts %}
+        {% for post in site_posts limit:2 %}
           <div class="col-md-6">
             <div class="kw-update-front">
               <div class="kw-update-text">
