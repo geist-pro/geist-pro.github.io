@@ -8,9 +8,9 @@ description: "Papers we have submitted"
 <div class="container-fluid index">
   <div class="kw-section-title kw-huge"><span>Publications</span></div>
   <div class="row index all-posts">
-      {% include_relative publications.md %}
     
     {% comment %}
+    <!-- include_relative publications.md  -->
     <!-- <h1 class="header author-header">{{ site.author_name }}</h1> -->
     <!-- <h2 class="header" itemprop="headline">All posts</h2>
     <h2 class="header categories" itemprop="headline"><small>grouped by
@@ -25,8 +25,6 @@ description: "Papers we have submitted"
       </div>
 
       </small></h2> -->
-
-
       {% endcomment %}
 
       {% for publication in site.data.publications %}
@@ -36,8 +34,19 @@ description: "Papers we have submitted"
         {% endif %}
         <li>
           <div class="kw-publication-list-item">
-            <a href="{{ publication.url }}">{{publication.title}}</a>
-            <p>{{publication.author}}, {{publication.note}}, {{publication.year}}</p>
+            {% if publication.url %}
+              <a href="{{ publication.url }}">{{publication.title}}</a>
+            {% else %}
+              <a href="#">{{publication.title}}</a>
+            {% endif %}
+
+            <p>
+              <span>{{publication.note}}</span>
+
+              {% if publication.bibtex %}
+                <span><a class="bibtex" href="{{ publication.bibtex }}">Bibtex</a></span>
+              {% endif %}
+            </p>
           </div>
         </li>
         {% if forloop.last %}

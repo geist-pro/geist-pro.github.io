@@ -996,6 +996,9 @@ header.masthead#kw-project-header {
     p {
       font-size: 16px;
     }
+    a.bibtex {
+      font-size: 15px;
+    }
   }
 }
 
@@ -1104,7 +1107,7 @@ footer {
   a.designed-by {
     padding-left: 6px;
     color: rgba(255,255,255,0.18);
-    font-size: 13px;
+    font-size: 11px;
     margin-top: 10px;
     display: inline-block;
     &:hover {
