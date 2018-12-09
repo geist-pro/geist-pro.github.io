@@ -1,6 +1,6 @@
 # GEIST Website
 
-This repository contains the source for the Giest lab website, which can be accessed at [http://geist.pro](http://geist.pro).
+This repository contains the source for the GEIST website which can be accessed at [http://geist.pro](http://geist.pro).
 
 The way to add new content to the sections of the website is described below. 
 Please follow the instructions and avoid editing any layout or asset files.
@@ -15,7 +15,7 @@ Ask [@kirill](https://geist-hq.slack.com/messages/D3B4S9C2V/team/U3B3VTAU8/) for
 To add an article in the News section, add a Markdown file into the *_posts* folder.
 The name of the file must follow this pattern: *YYYY-MM-DD-article_name.markdown*
 
-At the top of the file, the following block must be present:
+At the top of the file, the block of the following structure must be present:
 ```yaml
 ---
 layout:     article
