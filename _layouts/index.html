@@ -22,15 +22,15 @@
     <div class="container">
         <div class="kw-section-title kw-huge"><span>Featured Research</span></div>
           {% assign featured_projects = site.data.projects | where: 'featured', 'yes' %}
-          {% assign rows = featured_projects.size | divided_by: 3.0 | ceil %}
+          {% assign rows = featured_projects.size | divided_by: 2.0 | ceil %}
           {% for i in (1..rows) %}
-            {% assign offset = forloop.index0 | times: 3 %}
+            {% assign offset = forloop.index0 | times: 1 %}
             <div class="row">
-            {% for project in featured_projects limit:3 offset:offset %}
-              <div class="col-md-4">
+            {% for project in featured_projects limit: 2 offset:offset %}
+              <div class="col-md-6">
                 <div class=featured-item>
                   <div class="featured-image">
-                    <a href="/projects/{{project.id}}"">
+                    <a href="/projects/{{project.id}}">
                       <img src="{{ project.main_image | prepend: site.baseurl }}" class="img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
                     </a>
                   </div>

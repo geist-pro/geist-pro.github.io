@@ -1,18 +1,26 @@
 - id: open_eyewear
   title: Open Eyewear
   description: |
-    Attention and focus are finite resources, and we need to use it smartly. We need new tools to manage our attention better, to augment our intelligence. There are patterns in human physiological signals (facial expressions, heart rate, eye movements, blinks, etc.) that can reveal information about intentions and cognition of individuals and groups. 
-    
-    This project explores these patterns using an Open Eyewear Platform to understand our behavior better. So, people can optimize for their own personal and societal goals. We suggest an Open Eyewear Platform, a toolset to quantify cognitive functions and design interactions to augment behavior. 
-    
-    This project is interdisciplinary research focusing on the use of patterns in physiological signals to quantify and improve our daily behavior using a smart glasses design. First, we assess the link between physiological signals and behavior. In a second step, we explore interactions to improve it: learn smarter, work smarter, live smarter.
+    In an increasingly interconnected world, and with a greater flow of information, more people are having problems with keeping attention and focus. Attention is a finite resource, and we need to use it smartly. We need new tools to better manage our attention, to improve our collective intelligence. There are patterns in human physiological signals (facial expressions, heart rate, nose temperature, eye movements, blinks etc.) that can reveal information about intentions and cognitive functions of an individuals and groups. So far, this data is only heavily exploited by advertisement and marketing companies. This projects aims at exploring these patterns using an Open Eyewear Platform to better understand our behavior. So, people can optimize for their own personal and society goals. We see this as an integral first step to democratize Big Personal Data and giving the user more control over their lives, living with greater awareness and intention, and giving people more power to achieving their potential. We need better tools for personal and society introspection.
+
+    In this project, we work on an Open Eyewear Platform, a toolset to quantify social and cognitive functions of individuals and groups of people in real life settings using physiological sensing (e.g. eye movements, blink patterns, facial expressions etc.). After we can quantify these social and cognitive functions, we are designing interactions/ interventions to improve behavior. 
+
+    Why Eyewear? As humans receive most of their sensory input via the head, it is a particularly interesting body location for sensing and interaction especially for tracking and enhancing social and cognitive functions. In contrast to Google Glass and early wearable system approaches that just attached devices to standard glasses, we envision exploiting smart eyeglasses for assistance applications through fully integrated sensing, processing, and interaction functions in the regular spectacles design, thus maximizing unobtrusiveness.
+
+    We work  on how: 
+    (1) To quantify social and cognitive functions using sensors embedded in unobtrusive eyewear to better understand our behavior 
+    (2) to visualize this data to provide insights to individuals and groups about their behavior and to design interventions to improve behavior and effectiveness based on your personal goals.
+    (3) To make an Open Eyewear toolset available to individuals.
+
+    This project is interdisciplinary research focusing on the use of patterns in physiological signals to quantify and improve our daily behavior using a smart glasses design. We assess the link between behavior patterns/physiological signals and social/cognitive functions using specialized medical hardware (ground truth) and we quantify them in real life (from the lab to everyday). In a second step, we explore interactions to improve behavior: learn smarter, work smarter, live smarter.
+
   date: 2016 - today
   featured: 'yes'
   featured_description: |
-    Attention and focus are finite resources, and we need to use it smartly. We need new tools to manage our attention better, to augment our intelligence.
+       In this project, we work on an Open Eyewear Platform, a toolset to quantify social and cognitive functions of individuals and groups of people in real life settings using physiological sensing. After we can quantify these social and cognitive functions, we are designing interactions/ interventions to improve behavior. 
   externally_funded: 'yes'
   external_url: https://www.jst.go.jp/kisoken/presto/en/project/1112069/1112069_22.html
-  main_image: img/projects/open_eyewear/main.jpg
+  main_image: img/projects/jins_meme/main.jpg
   images:
     -
     -
@@ -27,77 +35,26 @@
     In this process, we transform the digital record of experiences into a user-adapted form called “experiential supplement” taking into account users’ cognitive biases. This makes the experiences more acceptable by users to change their behavior. We demonstrate the effectiveness of the above process in the fields of learning, health care, sports and entertainment.
   externally_funded: 'yes'
   external_url: https://www.jst.go.jp/kisoken/crest/en/project/1111083/1111083_09.html
-  main_image: img/assets/placeholders/1.png
+  main_image: img/projects/experiential_supplements/main-2.png
   date: 2017 - today
   featured: 'yes'
   featured_description: |
     Most of the problems we face in our life have already been experienced and solved by others. In this research, focusing on this point, we are digitally recording experiences, attempt to extract the essence and store them to make them applicable to other people.
   images:
-    - 
-    -
+    - img/projects/experiential_supplements/pai-wide-2.jpg
   videos:
     -
-    -
 
-- id: jins_meme
-  title: J!NS MEME -- Smart Eyewear Development / Research Project
+- id: deep_learning_the_mind
+  title: Deep Learning the Human Mind
   description: |
-    We are consulting and helping J!NS in the research and development for MEME, a smart eyewear focused on sensing eye and head motions.
-
-    We are also working on the establishment of an eyewear computing research and development community together with J!NS.
-  date: 2014 - today
-  main_image: img/projects/jins_meme/main.jpg
+    This project is about estimating cognitive performance fluctuations through deep learning, using a combination of physiological signals and recorded behavior patterns as data. Rather than employing deep learning to mimic or surpass some human cognitive functions (such as visual object/face recognition, playing Go, etc.), we adopt a human-empowering framework and use deep learning to “learn deeply” about the human mind.
+  featured: 'no'
+  featured_description: 
   externally_funded: 'no'
-  featured: 'yes'
-  featured_description: |
-    We are consulting and helping J!NS in the research and development for MEME, a smart eyewear focused on sensing eye and head motions.
-
-    We are also working on the establishment of an eyewear computing research and development community together with J!NS.
+  external_url: '#'
+  main_image: img/projects/deep_learning_the_mind/main.jpg
   images:
-    -
-    -
-  videos:
-    -
-    -
-
-- id: discrete_interactions
-  title: Discrete Interactions in Virtual and Augmented Reality
-  description:
-  featured: 'yes'
-  externally_funded: 'no'
-  date: 2016 - today
-  main_image: img/assets/placeholders/2.png
-  images:
-    -
-    -
-  videos:
-    -
-    -
-
-- id: smart_eyewear_gaming
-  title: Smart Eyewear Gaming
-  description: |
-    New project's description goes here
-  externally_funded: 'no'
-  main_image: img/projects/smart_eyewear_gaming/main.jpg
-  featured: 'yes'
-  date: 2016 - 2017
-  images:
-    - 
-    - 
-  videos:
-    - 
-    - 
-
-- id: complex_information_visualization
-  title: Complex Information Visualization Techniques
-  description:
-  main_image: img/assets/placeholders/3.png
-  date: 2016 - 2017
-  featured: 'yes'
-  externally_funded: 'no'
-  images:
-    -
     -
   videos:
     -

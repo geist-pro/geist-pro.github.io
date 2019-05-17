@@ -15,6 +15,7 @@ layout: default
             <div class="kw-project-title"><h1>{{ project.title }}</h1></div>
             <div class="kw-project-date">
               <span>{{ project.date }}</span>
+              {% comment %}
               {% if project.externally_funded == 'yes' %}
                 <span>// Externally funded project:
                   <a href="{{ project.external_url }}">
@@ -22,6 +23,7 @@ layout: default
                   </a>
                 </span>
               {% endif %}
+              {% endcomment %}
             </div>
             <!-- <div class="kw-project-sub"> -->
               
