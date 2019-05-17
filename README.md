@@ -4,7 +4,7 @@ This repository contains the source for the GEIST website which can be accessed 
 
 The way to add new content to the sections of the website is described below. 
 Please follow the instructions and avoid editing any layout or asset files.
-All changes are applied automatically.
+All changes are applied automatically after being committed.
 
 This website uses [Jekyll](https://jekyllrb.com) and is hosted using [GitHub Pages](https://pages.github.com). 
 Please refer to the official documentation if you intend to make any changes that go beyond adding new content.
@@ -51,7 +51,7 @@ git push origin master
   project: banana
   ---
   ```
-4. Describe your project by adding the follwing entry to the \_data/projects.yaml file:
+4. Describe your project by adding the following entry to the \_data/projects.yaml file:
   ```yaml
   - id: banana
     title: The Glorious Banana Project
@@ -99,7 +99,7 @@ Please optimize your images (reduce quality and size) for the web before includi
 
 Use 800x800 resolution for project's main image.
 
-If you don't have any picture for the project, a variety of colorful placeholders are available in the img/assets/space_invaders folder. 
+If you don't have any picture for the project, a variety of colorful placeholders are available in the img/assets/placeholders folder. 
 
 You can use [ImageMagick](http://www.imagemagick.org/script/index.php) to quickly edit your pictures without the graphic editor.
 
@@ -115,7 +115,7 @@ To quickly resize the image:
 ```bash
 convert 'before.jpg' -resize 800x800 -quality 100 'after.jpg'
 ```
-To optimize the image for the web:
+To optimize the image for the web (not the best option, but better than nothing):
 ```bash
 convert "before.jpg" -strip -quality 86 "after.jpg"
 ```

@@ -1194,3 +1194,17 @@ footer {
 #kw-publications .articles {
   padding-bottom: 80px;
 }
+
+#contact-footer {
+  background-color: #8e8e8e2e;
+  padding: 40px 40px 25px 40px;
+  margin-top: 50px;
+  .contact-footer-company {
+    font-weight: bold;
+  }
+}
+
+#contact.map{
+  margin-bottom: 20px;
+  background-color: #8e8e8e2e;
+}
