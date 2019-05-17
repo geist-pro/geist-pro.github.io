@@ -13,8 +13,6 @@
     (3) To make an Open Eyewear toolset available to individuals.
 
     This project is interdisciplinary research focusing on the use of patterns in physiological signals to quantify and improve our daily behavior using a smart glasses design. We assess the link between behavior patterns/physiological signals and social/cognitive functions using specialized medical hardware (ground truth) and we quantify them in real life (from the lab to everyday). In a second step, we explore interactions to improve behavior: learn smarter, work smarter, live smarter.
-
-  date: 2016 - today
   featured: 'yes'
   featured_description: |
        In this project, we work on an Open Eyewear Platform, a toolset to quantify social and cognitive functions of individuals and groups of people in real life settings using physiological sensing. After we can quantify these social and cognitive functions, we are designing interactions/ interventions to improve behavior. 
@@ -31,12 +29,16 @@
 - id: experiential_supplements
   title: Experiential Supplements
   description: |
-    Most of the problems we face in our life have already been experienced and solved by others. In this research, focusing on this point, we are digitally recording experiences, attempt to extract the essence and store them to make them applicable to other people. 
-    In this process, we transform the digital record of experiences into a user-adapted form called “experiential supplement” taking into account users’ cognitive biases. This makes the experiences more acceptable by users to change their behavior. We demonstrate the effectiveness of the above process in the fields of learning, health care, sports and entertainment.
+    Sharing experiences and knowledge have always been essential for human development. They enable skill transfers and empathy. Over history, mankind developed from oral traditions to cultures of writing. With the ongoing digital revolution, the hurdles to share knowledge and experiences vanish.  Already today it is, for example, technically feasible to take and store 24/7 video recordings of one's’ life. While this example creates massive collections of data, it makes it even more challenging to share experiences and knowledge with others in meaningful ways.
+
+    A recurring theme in science fiction literature is the download of the abilities of another human to one's mind. Although current cognitive science and neuroscience strongly suggest that this is impossible, as our minds are embodied; we believe that skill transfer and effective learning will accelerate tremendously given recent technological trends; just to name a few of the enabling technologies, human augmentation using virtual/augmented reality, new sensing modalities (e.g. affective computing) and actuation (e.g. haptics), advances in immersive storytelling (increasing empathy, immersion, communication)  etc. 
+
+    Most of the problems we face in our life have already been experienced and solved by others. In this project, we want to digitally recording experiences,  extract the essence and store them to make them applicable to other people. In this process, we transform the digital record of experiences into a user-adapted form called “experiential supplement” taking into account users’ cognitive states. We demonstrate the effectiveness of the above process in the fields of learning, health care, sports and entertainment.
+
+
   externally_funded: 'yes'
   external_url: https://www.jst.go.jp/kisoken/crest/en/project/1111083/1111083_09.html
   main_image: img/projects/experiential_supplements/main-2.png
-  date: 2017 - today
   featured: 'yes'
   featured_description: |
     Most of the problems we face in our life have already been experienced and solved by others. In this research, focusing on this point, we are digitally recording experiences, attempt to extract the essence and store them to make them applicable to other people.
