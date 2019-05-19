@@ -31,7 +31,7 @@
                 <div class=featured-item>
                   <div class="featured-image">
                     <a href="/projects/{{project.id}}">
-                      <img src="{{ project.main_image | prepend: site.baseurl }}" class="img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
+                      <img src="{{ project.main_image.url | prepend: site.baseurl }}" class="img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
                     </a>
                   </div>
                   <div>

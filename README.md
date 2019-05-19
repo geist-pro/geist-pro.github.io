@@ -58,15 +58,22 @@ git push origin master
     description: |
       Descibe your bananas here
     date: 2018 - today
-    main_image: img/projects/banana/main.jpg
+    main_image: 
+      url: img/projects/banana/main.jpg
+      description: Banana in action
+      credit: whoever
     featured: 'no'
     featured_description: |
       This text will be shown on front page when the project is featured
     externally_funded: 'no'
     external_url: '#'
     images:
-      - img/projects/banana/1.jpg
-      - img/projects/banana/2.jpg
+      - url: img/projects/banana/1.jpg
+        description: 
+        credit:
+      - url: img/projects/banana/2.jpg
+        description:
+        credit:
     videos:
       - https://www.youtube.com/watch?v=sFukyIIM1XI
   ```

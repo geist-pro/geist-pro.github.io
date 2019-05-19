@@ -1208,3 +1208,10 @@ footer {
   margin-bottom: 20px;
   background-color: #8e8e8e2e;
 }
+
+.kw-project-images {
+  margin-top: 50px;
+  .kw-project-image {
+    max-width: 100%;
+  }
+}

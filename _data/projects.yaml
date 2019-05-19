@@ -18,13 +18,15 @@
        In this project, we work on an Open Eyewear Platform, a toolset to quantify social and cognitive functions of individuals and groups of people in real life settings using physiological sensing. After we can quantify these social and cognitive functions, we are designing interactions/ interventions to improve behavior. 
   externally_funded: 'yes'
   external_url: https://www.jst.go.jp/kisoken/presto/en/project/1112069/1112069_22.html
-  main_image: img/projects/jins_meme/main.jpg
+  main_image: 
+    url: img/projects/jins_meme/main.jpg
+    description: Open Eyewear
+    credit: JINS MEME
   images:
-    -
-    -
+    - url: /img/projects/jins_meme/image1.png
+      description: Open Eyewear
+      credit: 
   videos:
-    -
-    -
 
 - id: experiential_supplements
   title: Experiential Supplements
@@ -38,14 +40,18 @@
 
   externally_funded: 'yes'
   external_url: https://www.jst.go.jp/kisoken/crest/en/project/1111083/1111083_09.html
-  main_image: img/projects/experiential_supplements/main-2.png
+  main_image: 
+    url: img/projects/experiential_supplements/main.png
+    description: Experiential Supplements
+    credit: Kirill Ragozin
   featured: 'yes'
   featured_description: |
     Most of the problems we face in our life have already been experienced and solved by others. In this research, focusing on this point, we are digitally recording experiences, attempt to extract the essence and store them to make them applicable to other people.
   images:
-    - img/projects/experiential_supplements/pai-wide-2.jpg
+    - url: /img/projects/experiential_supplements/image1.jpg
+      description: Experiential Supplements
+      credit: Kirill Ragozin
   videos:
-    -
 
 - id: deep_learning_the_mind
   title: Deep Learning the Human Mind
@@ -55,8 +61,9 @@
   featured_description: 
   externally_funded: 'no'
   external_url: '#'
-  main_image: img/projects/deep_learning_the_mind/main-min.jpg
+  main_image: 
+    url: img/projects/deep_learning_the_mind/main-min.jpg
+    description: Deep Learning the Human Mind
+    credit: David Clode
   images:
-    -
   videos:
-    -

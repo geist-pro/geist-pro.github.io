@@ -16,7 +16,7 @@ title: "GEIST | Projects"
             {% for project in projects limit:4 offset:offset %}
               <div class="col-md-3">
                 <a href="{{ project.id | prepend: site.baseurl }}"">
-                  <img src="{{site.baseurl}}/{{project.main_image}}" class="kw-project-image img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
+                  <img src="{{site.baseurl}}/{{project.main_image.url}}" class="kw-project-image img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
                 </a>
                 <a class="kw-project-title" href="{{ project.id | prepend: site.baseurl }}">
                   <h3>{{ project.title }}</h3>

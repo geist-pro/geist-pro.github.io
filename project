@@ -29,8 +29,8 @@ echo -e "Creating a new project record in _data/projects.yaml"
     echo -e "  featured_description: " >> ./_data/projects.yaml
     echo -e "  externally_funded: 'no'" >> ./_data/projects.yaml
     echo -e "  external_url: '#'" >> ./_data/projects.yaml
-    echo -e "  main_image: img/projects/$project_name/main.jpg" >> ./_data/projects.yaml
-    echo -e "  images:\n\t\t-" >> ./_data/projects.yaml
-    echo -e "  videos:\n\t\t-" >> ./_data/projects.yaml
+    echo -e "  main_image:\n\t\turl: img/projects/$project_name/main.jpg\n\t\tdescription:\n\t\tcredit:" >> ./_data/projects.yaml
+    echo -e "  images:" >> ./_data/projects.yaml
+    echo -e "  videos:" >> ./_data/projects.yaml
 
 echo -e "Done. Now edit the new record in _data/projects.yaml, add project's pictures to img/projects/$project_name and you're ready to go."
