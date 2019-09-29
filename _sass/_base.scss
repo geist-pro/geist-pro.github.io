@@ -849,6 +849,7 @@ header.masthead {
   text-transform: uppercase;
   text-decoration: underline;
   letter-spacing: 1px;
+
 }
 
 #kw-updates {
@@ -910,6 +911,14 @@ footer {
       border-bottom: 8px solid $color-lblue;
     }
   }
+
+  &.kw-huge-alt-black {
+    color: black;
+    span {
+      display: inline-block;
+      border-bottom: 8px solid $color-lblue;
+    }
+  }
 }
 
 #kw-featured, #kw-project-index, #kw-publications {
@@ -924,6 +933,12 @@ footer {
     span {
       display: inline-block;
       border-bottom: 8px solid $color-lblue;
+    }
+
+    &.awrd {
+      span {
+        margin-bottom: 40px;
+      }
     }
   }
   .featured-item {
@@ -1066,7 +1081,21 @@ header.masthead#kw-project-header {
     color: white;
     font-size: 21px;
   }
+
+  &.awrd {
+    background-color:#337ab7;
+  }
+
+  &.light {
+    background-color: white;
+    p {
+      color: #131313;
+      font-size: 21px;
+    }
+  }
 }
+
+
 @media (max-width: 768px) {
   #geist-description p {
     font-size: 17px;
@@ -1189,6 +1218,10 @@ footer {
   }
   p.copyright {
     margin-top: 10px;
+  }
+
+  &.awrd {
+    background-color:#337ab7;
   }
 }
 

@@ -1,0 +1,46 @@
+title: Rich Green Tea
+subtitle: Wellbeing and Stress Management Platform
+
+intro: | 
+  Besides the rapidly aging society of the developed countries the population growth varies from negative to negligibly small. With the shrinking labor pool and the increasing number of retired people, developed economies will struggle more every year just to maintain themselves. In these conditions we believe that the only way to support the economic growth is intensive. Thus, we propose a smarter computer-aided approach to cognitive load distribution, attention management, and burnout prevention, based on physiological activity sensing related to the autonomic nervous system activity. Our goal is to increase the wellbeing and efficiency on individual and social levels.
+
+smart_eyewear: |
+  Smart eye glasses are the most promising form-factor for such devices, since most of the sensory organs as well as the brain, our main point of interest, are located on/in the head. The only head-worn object that has enough space to house all the required electronics, can be worn at any time, indoors or outdoors and is culturally and socially acceptable is eyewear. Placement of the sensors in the glasses allows to read signals related to cognitive and social activities through enabling additional Electroencephalography (EEG) and Electrooculography (EOG). Placement of an IMU on the head allows tracking of user's posture, gait and social interactions, as the head motion is known to be related to speech and social functions. 
+
+eog: |
+  Eye blink characteristics, such as duration, speed and frequency are known to be related to the fatigue levels. Tracking eye motions and blinks using electrooculography in on smart eyewear would allow us to get a glimpse into the personal fatigue levels and social interactions between the people without violating the individual privacy with micropones and cameras. 
+
+thermal_sensing: |
+  High cognitive load levels increase the glucose consumption and heat production in the brain. Since the main brain cooling mechanism relies on the bloodflow, using certain features of the facial anatomy, we can see the activation of the brain cooling mechanisms by measuring the temperatures of certain regions of the face. Activation of these mechanisms can give us a clue about the cognitive load level. 
+
+skin_measurement: |
+  Autonomic nervous system is controlling many processes such as heartbeat, breathing, sweating, blinking, etc. Most of these processes cannot be controlled by human will directly. In this project we concentrate on the changes in electrodermal activity related to sweating. Multiple studies show how sweating levels can be used for cognitive load and emotional stress measurement and have been used in polygraphs (lie-detectors) and psychotherapy for many decades. 
+
+eye_motion: |
+  By fusing these approaches together, we are developing a wearable platform for tracking cognitive load and stress throughout the day. Combined with user friendly application, such a device could help us better understand our behavior and lead us towards a mindful lifestyle. Since every human being is unique, physiologically and psychologically, the sensory information has to be processed by AI models in order to adjust to individual differences and reaction to the stress factors. 
+
+future_spinoffs: |
+  The more sensing modalities we can combine, the better picture and more precise stress and workload forecast we can make. We are working on adding other environmental factors into our models. Surrounding light and air quality, time spent outdoors under the sun, noise level, all these can affect us on both, psychological and physiological levels. These factors also affect our health, performance, and well-being. 
+
+  The sensory hardware we are using for the measurement of the electric properties of the skin and sweating can be easily expanded to be used for bioelectrical impedance analysis. This will allow tracking the skin condition every day, such as oiliness, dryness, and cell condition. The changes in skin condition often reflect deeper health issues. This can lead to a series of brand-new devices for the health and beauty market. 
+
+publications:
+  - title: "Facial thermography for attention tracking on smart eyewear: An initial study."
+    url: https://dl.acm.org/citation.cfm?doid=3027063.3053243
+    note: >
+      In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems, pp. 2959-2966. ACM, 2017.
+
+  - title: "Continuous Alertness Assessments: Using EOG Glasses to Unobtrusively Monitor Fatigue Levels In-The-Wild."
+    url: https://dl.acm.org/citation.cfm?id=3300694 
+    note: >
+      In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, p. 464. ACM, 2019.
+
+  - title: "Electrodermal activity sensing using smart eyewear."
+    url: https://dl.acm.org/citation.cfm?id=3348390
+    note: >
+       In Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers, pp. 653-656. ACM, 2019.
+
+  - title: "Cognitive load assessment from facial temperature using smart eyewear."
+    url: https://dl.acm.org/citation.cfm?id=3348391
+    note: >
+      In Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers, pp. 657-660. ACM, 2019. 
