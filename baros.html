@@ -1,0 +1,395 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="description" content="">
+                <meta name="author" content="">
+            
+                <title>{{ site.data.awrd.title }}</title>
+            
+                <!-- Bootstrap Core CSS -->
+                <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+            
+                <!-- KR Custom Fonts -->
+                <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i&amp;subset=latin-ext" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
+                
+                <!-- Custom Fonts -->
+            <!--     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> -->
+            
+                <!-- Plugin CSS -->
+                <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+                <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+                <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
+                <link rel="stylesheet" href="/vendor/device-mockups/device-mockups.min.css">
+            
+                <!-- Custom CSS
+                <link rel="stylesheet" href="css/main.css" type="text/css"> -->
+                <link href="/css/main.css" rel="stylesheet">
+            
+                <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+                <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                <!--[if lt IE 9]>
+                    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+                <![endif]-->
+            </head>
+
+<body id="page-top">
+  <header id="awrd" class="masthead text-center text-white">
+    <div class="overlay"></div>
+    <div class="masthead-content">
+        <div class="container">
+        <h1 class="masthead-heading mb-0">{{ site.data.awrd.title }}</h1>
+        <h2 class="masthead-subheading mb-0">{{ site.data.awrd.subtitle }}</h2>
+        </div>
+    </div>
+    <!-- <img src="/img/taka.jpg" class="img-responsive" width="800" style="margin: 50px auto;"> -->
+    <!-- <div class="bg-circle-1 bg-circle"></div> -->
+    <!-- <div class="bg-circle-2 bg-circle"></div> -->
+    <!-- <div class="bg-circle-3 bg-circle"></div> -->
+    <!-- <div class="bg-circle-4 bg-circle"></div> -->
+</header>   
+
+<section id="geist-description" class="text-center awrd">
+    <div class="container">
+        <div class="row">
+        <div class="kw-section-title kw-huge kw-huge-alt"><span>Introduction</span></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            {% assign description_paragraphs = site.data.awrd.intro | newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</section>
+
+
+{% comment %}
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="kw-section-title awrd kw-huge kw-huge-alt-black"><span>Smart Eyewear</span></div>
+        <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            {% assign url = "/img/awrd/1.JPG" %}
+            <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            {% assign description_paragraphs = site.data.awrd.smart_eyewear | newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</section>
+{% endcomment %}
+
+<div style="min-height: 80px;"></div>
+
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Smart Eyewear</span></div>
+        <div class="row">
+            <div class="col-lg-5">
+                {% assign url = "/img/awrd/1.JPG" %}
+                <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+            </div>
+            <div class="col-lg-7" style="text-align: left;">
+                {% assign description_paragraphs = site.data.awrd.smart_eyewear | newline_to_br | split:'<br />' %}
+                {% for paragraph in description_paragraphs %}
+                    <p style="font-size: 19px;">{{ paragraph }}</p>
+                {% endfor %}
+                </div>
+        </div>
+    </div>
+</section>
+
+<div style="min-height: 80px;"></div>
+
+{% comment %}
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="row">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Thermal Sensing</span></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            {% assign description_paragraphs = site.data.awrd.thermal_sensing | newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</section>
+{% endcomment %}
+
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Contactless Thermal Sensing</span></div>
+        <div class="row">
+                <div class="col-lg-8" style="text-align: left;">
+                        {% assign description_paragraphs = site.data.awrd.thermal_sensing | newline_to_br | split:'<br />' %}
+                        {% for paragraph in description_paragraphs %}
+                            <p style="font-size: 19px;"><br>{{ paragraph }}</p>
+                        {% endfor %}
+                        </div>
+            <div class="col-lg-4">
+                {% assign url = "/img/awrd/3.JPG" %}
+                <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+
+<div style="min-height: 80px;"></div>
+
+{% comment %}
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="row">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Electrical Skin Activity</span></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            {% assign description_paragraphs = site.data.awrd.skin_measurement| newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</section>
+{% endcomment %}
+
+<section id="geist-description" class="text-center light">
+        <div class="container">
+            <div class="kw-section-title kw-huge kw-huge-alt-black awrd"><span>Electrical Skin Activity</span></div>
+            <div class="row">
+                <div class="col-lg-3">
+                    {% assign url = "/img/awrd/E.png" %}
+                    <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+                </div>
+                <div class="col-lg-9" style="text-align: left;">
+                        {% assign description_paragraphs = site.data.awrd.skin_measurement | newline_to_br | split:'<br />' %}
+                    <br>
+                    {% for paragraph in description_paragraphs %}
+                        <p style="font-size: 19px;">{{ paragraph }}</p>
+                    {% endfor %}
+                    </div>
+            </div>
+        </div>
+    </section>
+
+<div style="min-height: 60px;"></div>
+
+{% comment %}
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="row">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Eye motion and blink</span></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            {% assign description_paragraphs = site.data.awrd.eog| newline_to_br | split:'<br />' %}
+            {% for paragraph in description_paragraphs %}
+                <p>{{ paragraph }}</p>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</section>
+{% endcomment %}
+
+
+<section id="geist-description" class="text-center light">
+        <div class="container">
+            <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Eye motion and blink</span></div>
+            <div class="row">
+                    <div class="col-lg-8" style="text-align: left;">
+                            {% assign description_paragraphs = site.data.awrd.eog | newline_to_br | split:'<br />' %}
+                            {% for paragraph in description_paragraphs %}
+                                <p style="font-size: 19px;"><br>{{ paragraph }}</p>
+                            {% endfor %}
+                            </div>
+                <div class="col-lg-4">
+                    {% assign url = "/img/awrd/4.png" %}
+                    <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+        
+<div style="min-height: 70px;"></div>
+
+{% comment %}
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Future potential</span></div>
+
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                {% assign url = "/img/awrd/T.JPG" %}
+                <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                {% assign description_paragraphs = site.data.awrd.future_spinoffs | newline_to_br | split:'<br />' %}
+                {% for paragraph in description_paragraphs %}
+                    <p>{{ paragraph }}</p>
+                {% endfor %}
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+{% endcomment %}
+
+<section id="geist-description" class="text-center light">
+    <div class="container">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Future Potential</span></div>
+        <div class="row">
+            <div class="col-lg-4">
+                {% assign url = "/img/awrd/T.jpg" %}
+                <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+            </div>
+            <div class="col-lg-8" style="text-align: left;">
+                {% assign description_paragraphs = site.data.awrd.future_spinoffs | newline_to_br | split:'<br />' %}
+                <br><br>
+                {% for paragraph in description_paragraphs %}
+                    <p style="font-size: 19px;">{{ paragraph }}</p>
+                {% endfor %}
+                </div>
+        </div>
+    </div>
+</section>
+
+<div style="min-height: 80px;"></div>
+
+<section id="kw-publications">
+    <br><br><br><br>
+    <div class="row">
+            <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Publications</span></div>
+    {% for publication in site.data.awrd.publications %}
+    {% if forloop.first %}
+    <div class="col-lg-10 col-lg-offset-1 content-panel articles">
+        <ul style="list-style: none;">
+    {% endif %}
+    <li style="">
+        <div class="kw-publication-list-item">
+        {% if publication.url %}
+            <a href="{{ publication.url }}">{{publication.title}}</a>
+        {% else %}
+            <a href="#">{{publication.title}}</a>
+        {% endif %}
+
+        <p>
+            <span style="font-size: 18px;">&nbsp;&nbsp;{{publication.note}}</span>
+
+            {% if publication.bibtex %}
+            <span><a class="bibtex" href="{{ publication.bibtex }}">Bibtex</a></span>
+            {% endif %}
+        </p>
+        </div>
+    </li>
+    {% if forloop.last %}
+        </ul>
+    </div>
+    {% endif %}
+{% endfor %}
+    </div>
+</section>
+
+<div style="min-height: 80px;"></div>
+
+  {% comment %}
+    <section id="kw-about" class="text-center">
+        <div class="container">
+        <div class="row">
+            <p>Geist is a research group at the Keio Graduate School of Media Design, Keio University Japan, as well as a loosely connected collective of individuals driven by the same ideals.</p>
+        </div>
+        </div>
+    </section>
+  {% endcomment %}
+
+  {% comment %}
+  <section class="kw-section" id="kw-featured">
+    <div class="container">
+        <div class="kw-section-title kw-huge"><span>Featured Research</span></div>
+          {% assign featured_projects = site.data.projects | where: 'featured', 'yes' %}
+          {% assign rows = featured_projects.size | divided_by: 2.0 | ceil %}
+          {% for i in (1..rows) %}
+            {% assign offset = forloop.index0 | times: 1 %}
+            <div class="row">
+            {% for project in featured_projects limit: 2 offset:offset %}
+              <div class="col-md-6">
+                <div class=featured-item>
+                  <div class="featured-image">
+                    <a href="/projects/{{project.id}}">
+                      <img src="{{ project.main_image.url | prepend: site.baseurl }}" class="img-responsive" alt="{{ project.title }}" title="{{ project.title }}">
+                    </a>
+                  </div>
+                  <div>
+                    <h3 class="featured-title">
+                      <a href="/projects/{{project.id}}">
+                        {{ project.title }}
+                      </a>
+                      </h3>
+                    <div class=featured-description>{{ project.featured_description }}</div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+          {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endcomment %}
+
+    <!-- <div class="col-lg-4">
+      <a href="{{ update_two.url | prepend: site.baseurl }}">
+        <img src="/{{ update_two.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ update_two.title }}">
+      </a>
+    </div>
+    <div class="col-lg-4">
+      <a href="{{ update_three.url | prepend: site.baseurl }}">
+        <img src="/{{ update_three.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ update_three.title }}">
+      </a>
+    </div> -->
+
+    <!-- <div class="col-lg-8">
+        <h3>
+            <a href="{{ update_one.url | prepend: site.baseurl }}">{{ update_one.title }}</a>
+        </h3>
+        <small class="hidden-xs">{{ update_one.date | date: "%B %-d, %Y" }}</small>
+    </div> -->
+
+  {% include awrd-footer.html %}
+  {% include scripts.html %}
+</body>
+
+</html>
