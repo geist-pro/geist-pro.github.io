@@ -1077,6 +1077,7 @@ header.masthead#kw-project-header {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #131313;
+
   p {
     color: white;
     font-size: 21px;
@@ -1084,6 +1085,10 @@ header.masthead#kw-project-header {
 
   &.awrd {
     background-color:#337ab7;
+  }
+
+  &.awrd-gap {
+    padding-bottom: 260px !important;
   }
 
   &.light {
