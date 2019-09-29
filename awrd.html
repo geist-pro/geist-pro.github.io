@@ -191,7 +191,7 @@ layout: none
                     <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
                 </div>
                 <div class="col-lg-9" style="text-align: left;">
-                    {% assign description_paragraphs = site.data.awrd.eog | newline_to_br | split:'<br />' %}
+                        {% assign description_paragraphs = site.data.awrd.skin_measurement | newline_to_br | split:'<br />' %}
                     <br>
                     {% for paragraph in description_paragraphs %}
                         <p style="font-size: 19px;">{{ paragraph }}</p>
