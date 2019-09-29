@@ -107,6 +107,28 @@ layout: none
 
 <section id="geist-description" class="text-center light">
     <div class="container">
+        <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Vision</span></div>
+        <div class="row">
+            <div class="col-lg-1"></div>
+                <div class="col-lg-7" style="text-align: left;">
+                        {% assign description_paragraphs = site.data.awrd.intro_stress | newline_to_br | split:'<br />' %}
+                        <br><br>
+                        {% for paragraph in description_paragraphs %}
+                            <p style="font-size: 19px;">{{ paragraph }}</p>
+                        {% endfor %}
+                        </div>
+
+                        <div class="col-lg-3">
+                                {% assign url = "/img/awrd/stress2.png" %}
+                                <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
+                            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
+<section id="geist-description" class="text-center light">
+    <div class="container">
         <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Smart Eyewear</span></div>
         <div class="row">
             <div class="col-lg-5">
@@ -185,13 +207,13 @@ layout: none
         <div class="container">
             <div class="kw-section-title kw-huge kw-huge-alt-black awrd"><span>Electrical Skin Activity</span></div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     {% assign url = "/img/awrd/E.png" %}
                     <img src="{{ url | prepend: site.baseurl }}" class="img-responsive">
                 </div>
-                <div class="col-lg-9" style="text-align: left;">
+                <div class="col-lg-8" style="text-align: left;">
                         {% assign description_paragraphs = site.data.awrd.skin_measurement | newline_to_br | split:'<br />' %}
-                    <br>
+                    <br><br>
                     {% for paragraph in description_paragraphs %}
                         <p style="font-size: 19px;">{{ paragraph }}</p>
                     {% endfor %}
@@ -292,7 +314,7 @@ layout: none
 <section id="kw-publications">
     <br><br><br><br>
     <div class="row">
-            <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Publications</span></div>
+            <div class="kw-section-title kw-huge kw-huge-alt-black"><span>Selected Publications</span></div>
     {% for publication in site.data.awrd.publications %}
     {% if forloop.first %}
     <div class="col-lg-10 col-lg-offset-1 content-panel articles">

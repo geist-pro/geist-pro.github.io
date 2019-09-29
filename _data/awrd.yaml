@@ -1,7 +1,12 @@
 title: Baros
 subtitle: Wellbeing and Stress Management Platform
 
-intro: | 
+intro: |
+  In the past few decades society is facing a serious problem with the decreasing well-being levels and the rise of mental disorders, despite the economic growth and all the improvements in human rights and equality. This project aims to create a platform that helps people to track and manage cognitive activity and stress levels in their daily lives. 
+
+  What if people can read their cognitive activities in real time as weather report? So that they can make decisions based on that. We are developing the new ways in which technology can promote mindful behavior. The proposed solutions are based on years of research in tracking the cognitive activity using the fusion of the advanced sensory technologies together with personalized AI models embedded in wearable devices. 
+
+intro_stress: | 
   Besides the rapidly aging society of the developed countries the population growth varies from negative to negligibly small. With the shrinking labor pool and the increasing number of retired people, developed economies will struggle more every year just to maintain themselves. In these conditions we believe that the only way to support the economic growth is intensive. Thus, we propose a smarter computer-aided approach to cognitive load distribution, attention management, and burnout prevention, based on physiological activity sensing related to the autonomic nervous system activity. Our goal is to increase the wellbeing and efficiency on individual and social levels.
 
 smart_eyewear: |
