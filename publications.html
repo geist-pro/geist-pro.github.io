@@ -10,30 +10,19 @@ description: "Papers we have submitted"
   <div class="row index all-posts">
     
     {% comment %}
-    <!-- include_relative publications.md  -->
-    <!-- <h1 class="header author-header">{{ site.author_name }}</h1> -->
-    <!-- <h2 class="header" itemprop="headline">All posts</h2>
-    <h2 class="header categories" itemprop="headline"><small>grouped by
-
-      <div class="dropdown btn-group">
-        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Years
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/posts-by-categories/">Categories</a></li>
-        </ul>
-      </div>
-
-      </small></h2> -->
       {% endcomment %}
+      
+      <!-- <div class="col-md-1"></div> -->
+      <div class="col-md-12 content-panel articles">
+          <ul style="list-style: none;">
 
       {% for publication in site.data.publications %}
         {% if forloop.first %}
-        <div class="col-md-8 col-md-offset-2 content-panel articles">
-          <ul style="list-style: none;">
+        
         {% endif %}
         <li style="padding-left: 15px;">
           <div class="kw-publication-list-item">
+            <img src="../img/assets/doc.png" width='40' height='40' /> 
             {% if publication.url %}
               <a href="{{ publication.url }}">{{publication.title}}</a>
             {% else %}
@@ -50,11 +39,12 @@ description: "Papers we have submitted"
           </div>
         </li>
         {% if forloop.last %}
-          </ul>
-        </div>
       {% endif %}
     {% endfor %}
+              </ul>
+        </div>
     </div>
+    <!-- <div class="col-md-1"></div> -->
 
   </div>
 
