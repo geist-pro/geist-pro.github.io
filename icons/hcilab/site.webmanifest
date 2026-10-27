@@ -1,0 +1,9 @@
+{
+  "name": "HCI Lab",
+  "short_name": "HCI Lab",
+  "icons": [{ "src": "/icons/hcilab/favicon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "theme_color": "#193f82",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "start_url": "/"
+}

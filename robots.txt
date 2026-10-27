@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://geist.pro/sitemap-index.xml

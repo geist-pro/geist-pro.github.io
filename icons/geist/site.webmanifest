@@ -1,0 +1,9 @@
+{
+  "name": "GEIST",
+  "short_name": "GEIST",
+  "icons": [{ "src": "/icons/geist/favicon.svg", "sizes": "any", "type": "image/svg+xml" }],
+  "theme_color": "#193f82",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "start_url": "/"
+}
